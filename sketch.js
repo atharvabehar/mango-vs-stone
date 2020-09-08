@@ -31,11 +31,11 @@ function setup() {
 	m11 = new Mango(1130,200,36);
 	m12 = new Mango(1190,210,36);
 
-	tree = new Tree(1050,480,250,500);
+	//tree = new Tree(1050,480,250,500);
 	ground = new Ground(width/2,700,width,20);
 	slingshot = new SlingShot(stone.body,{x:235,y:530});
 	//Create the Bodies Here.
-///	tree.shapeColor("white")
+//	tree.shapeColor("white")
 
 
 	Engine.run(engine);
@@ -47,7 +47,7 @@ function draw() {
   
   background(0);
  
- tree.display()
+// tree.display()
  
  ground.display();
  slingshot.display(); 
