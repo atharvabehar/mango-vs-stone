@@ -100,6 +100,6 @@ function colide(lstone,lmango){
 
 	var distance = dist(stoneBodyPosition.x,stoneBodyPosition.y,mamgoBodyPosition.x,mamgoBodyPosition.y)
 	if (distance<=lmango.r+lstone.r){
-		Matter.Body.setStatic(lmango.Body,false)
+		Matter.Body.setStatic(lmango.body,false)
 	}
 }
